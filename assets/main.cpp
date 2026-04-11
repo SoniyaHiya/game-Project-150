@@ -152,7 +152,7 @@ int main(int argc, char *argv[]) {
         SDL_Delay(100);
     }
 
-    // Cleanup
+
     SDL_DestroyTexture(foodTexture);
     SDL_DestroyTexture(snakeTexture);
     Mix_FreeChunk(eatSound);
